@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Impact, Helvetica, sans-serif;
+  transition: all 1s;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.form__input {
+  margin-bottom: 20px;
+}
+
+.form__buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form__input label {
+  text-align: center;
+}
+
+.form__input {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+audio {
+  margin: 20px 0;
+}
+
+.lights {
+  display: flex;
+  justify-content: space-between;
+}
+
+.txt {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btns {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(15, 26, 130);
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form__speak__btn {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(15, 26, 130);
+  color: white;
+}
+
+.gif__img {
+  display: flex;
+  margin: 0 auto;
+  max-width: 200px;
+  border-radius: 10px;
+}

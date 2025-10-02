@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Here, Right Now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="page-title">Fatboy Slim - Right Here, Right Now</h1>
+
+
+    <main class="main">
+
+        <!-- train spotting gif -->
+        <form>
+            <article>
+                <div class="form__buttons">
+                    <button class="btns right_here">Right Here</button>
+                    <button class="btns right_now">Right Now</button>
+                </div>
+                <h2>Add Your Own Lyrics</h2>
+                <div class="form__input">
+                    <!--         <label for="txt">Add Your Own Lyrics</label> -->
+                    <input class="txt" type="text" placeholder="Enter text">
+                    <button class="form__speak__btn">Speak</button>
+                </div>
+        </form>
+
+        <!-- Audio Player -->
+        <audio controls>
+            <source src="/audio/Instrumental - right_instrumental.mp3" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+
+
+        <!-- Background Flashing Lights -->
+        <div class="lights">
+            <button class="lights__go-btn btns ">Flashing Lights</button>
+            <button class="lights__stop-btn btns ">Stop Lights</button>
+        </div>
+
+        <div class="gif__container">
+
+            <div>
+                <h2> Search For Gifs:</h2>
+                <label>
+                    <input type="text" name="search" class="txt gif__input" placeholder="Search For Gif" />
+                    <button class="gif__btn btns ">Find Gifs</button>
+                </label>
+                <img class="gif__img">
+
+            </div>
+        </div>
+
+        </article>
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
