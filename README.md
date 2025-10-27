@@ -1,7 +1,5 @@
 # Right Here, Right Now
 
-## Overview
-
 ## Live Demo:
 
 https://tgulu.github.io/Right-Here-Right-Now/
