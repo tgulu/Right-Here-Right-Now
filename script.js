@@ -75,7 +75,7 @@ function gifFinder() {
   console.log(searchTerm);
   if (searchTerm === "") return;
 
-  const apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=jZxn3wR6wAu1WnFYOSOxuTRHhHuFdBrk&q=${searchTerm}`;
+  const apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${CONFIG.GIPHY_API_KEY}&q=${searchTerm}`;
 
   fetch(apiUrl)
     .then((res) => res.json())
