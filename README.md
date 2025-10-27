@@ -1,38 +1,56 @@
-# Right-Here-Right-Now
+# Right Here, Right Now
 
-Fatboy Slim - Right Here, Right Now Website
+## Overview
 
-## Description
+## Live Demo:
 
-A fun interactive website built with Vanilla JavaScript, HTML, and CSS.
-The project recreates the vibe of Fatboy Slim’s track Right Here, Right Now with extra features, including computer-generated speech, flashing lights, music playback, and GIF searches using the Giphy API.
+https://tgulu.github.io/Right-Here-Right-Now/
 
-## Features
+**Right Here, Right Now** is an interactive web experience inspired by Fatboy Slim’s iconic track. Built with Vanilla JavaScript, HTML, and CSS, the site recreates the energy and atmosphere of the song through music playback, text-to-speech features, flashing light effects, and live GIF searches powered by the Giphy API.
 
-Music Controls
-Play and enjoy Right Here, Right Now directly on the page with an embedded audio player.
+## Technology Stack
 
-Text-to-Speech (Web Audio API)
-Type in your own lyrics or phrases, and the browser will speak them aloud.
+### Frontend
 
-Interactive Buttons
+- **HTML5**: Semantic structure for the entire page
+- **CSS3**: Custom styling and responsive layout
+- **JavaScript (ES6)**: Core interactivity and API functionality
+- **Web Audio API**: Integrated text-to-speech synthesis
+- **Giphy API**: Dynamic GIF retrieval and display
 
-"Right Here" and "Right Now" buttons to add to the song’s energy
+### File Structure
 
-Flashing lights effect (and stop button to turn it off)
+- **Global Styles**: Base typography, colour palette, and layout settings
+- **Component Styles**: Dedicated styling for buttons, lights, and text areas
+- **Audio Controls**: Music playback features including play, pause, and stop
+- **Interactive Scripts**: Functions for speech synthesis, flashing lights, and GIF searches
 
-GIF Search (Giphy API)
-Search for GIFs by keyword and display them instantly on the page.
+## Website Sections
 
-## Technologies Used
+### Homepage
 
-HTML5 – Page structure
+- Hero section inspired by _Right Here, Right Now_ visuals
+- Music playback controls for listening to the track
+- “Right Here” and “Right Now” interactive buttons
+- Flashing lights and visual effects toggle
+- Text-to-speech input for user-generated phrases
+- Live GIF search using the Giphy API
 
-CSS3 – Styling and layout
+### Interaction Features
 
-Vanilla JavaScript (ES6) – Interactivity and API calls
+- **Music Controls**: Play, pause, and control the track directly on the site
+- **Speech Synthesis**: Type any text to hear it spoken aloud through the browser
+- **Visual Effects**: Flashing light animations with start and stop options
+- **GIF Integration**: Search and display animated GIFs in real time
 
-Web Audio API – Computer-generated speech
+## Key Features
 
-Giphy API
-– Fetch and display GIFs
+- **Interactive Experience**: Combine music, visuals, and speech for a dynamic web interaction
+- **Responsive Layout**: Designed for desktop, tablet, and mobile browsers
+- **API Integration**: Giphy and Web Audio API for live media functionality
+- **User Engagement**: Encourages creativity through text, sound, and visuals
+- **Clean Interface**: Minimalist design with accessible controls and clear structure
+
+## Target Audience
+
+**Right Here, Right Now** is aimed at fans of Fatboy Slim, electronic music enthusiasts, and web users interested in creative, interactive experiences. It showcases how core web technologies can be used to produce engaging, multimedia-based projects blending audio, animation, and API-driven content.
