@@ -2,6 +2,8 @@
 
 ## Live Demo:
 
+https://github.com/user-attachments/assets/c50741fc-61d0-44fe-8308-fb8d47d0e35e
+
 https://tgulu.github.io/Right-Here-Right-Now/
 
 **Right Here, Right Now** is an interactive web experience inspired by Fatboy Slim’s iconic track. Built with Vanilla JavaScript, HTML, and CSS, the site recreates the energy and atmosphere of the song through music playback, text-to-speech features, flashing light effects, and live GIF searches powered by the Giphy API.
